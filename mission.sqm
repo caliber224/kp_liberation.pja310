@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=3499;
+		nextID=3500;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5848.3799,113.61198,216.18323};
-		dir[]={-0.58826023,-0.68926036,0.42318457};
-		up[]={-0.55972809,0.72426599,0.40265971};
-		aside[]={0.58403558,3.062014e-007,0.81184834};
+		pos[]={5766.9829,81.77549,435.60995};
+		dir[]={-0.56748646,-0.61177522,0.55129921};
+		up[]={-0.43902472,0.79078424,0.42650089};
+		aside[]={0.69688189,-5.0425297e-007,0.71734059};
 	};
 };
 binarizationWanted=0;
@@ -78,14 +78,13 @@ addons[]=
 	"A3_Static_F_Destroyer_Boat_Rack_01",
 	"A3_Boat_F_Boat_Armed_01",
 	"JS_JC_FA18",
-	"RHS_US_A2_AirImport",
 	"rhsusf_c_ch53"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=28;
+		items=27;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -269,13 +268,6 @@ class AddonsMetaData
 		};
 		class Item26
 		{
-			className="RHS_US_A2_AirImport";
-			name="RHSUSF A2 Air Ports";
-			author="Red Hammer Studios";
-			url="http://www.rhsmods.org/";
-		};
-		class Item27
-		{
 			className="rhsusf_c_ch53";
 			name="CH-53 Helicopter";
 			author="Red Hammer Studios";
@@ -395,7 +387,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=508;
+		items=505;
 		class Item0
 		{
 			dataType="Marker";
@@ -1584,7 +1576,7 @@ class Mission
 					{
 						rank="LIEUTENANT";
 						name="p1";
-						description="Helicopter Pilot";
+						description="Pilot";
 						isPlayable=1;
 					};
 					id=3326;
@@ -1645,7 +1637,7 @@ class Mission
 					{
 						rank="LIEUTENANT";
 						name="p2";
-						description="Helicopter Pilot";
+						description="Pilot";
 						isPlayable=1;
 					};
 					id=3328;
@@ -1706,7 +1698,7 @@ class Mission
 					{
 						rank="LIEUTENANT";
 						name="p3";
-						description="Helicopter Pilot";
+						description="Pilot";
 						isPlayable=1;
 					};
 					id=3330;
@@ -1767,7 +1759,7 @@ class Mission
 					{
 						rank="LIEUTENANT";
 						name="p4";
-						description="Helicopter Pilot";
+						description="Pilot";
 						isPlayable=1;
 					};
 					id=3332;
@@ -1828,7 +1820,7 @@ class Mission
 					{
 						rank="LIEUTENANT";
 						name="p5";
-						description="Helicopter Pilot";
+						description="Pilot";
 						isPlayable=1;
 					};
 					id=3334;
@@ -1888,7 +1880,7 @@ class Mission
 					class Attributes
 					{
 						rank="LIEUTENANT";
-						description="Helicopter Pilot";
+						description="Pilot";
 						isPlayable=1;
 					};
 					id=3336;
@@ -2124,6 +2116,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				disableSimulation=1;
 				aiRadarUsage=1885958239;
 			};
 			id=595;
@@ -26080,12 +26073,13 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5626.644,9.5367432e-005,551.65527};
-				angles[]={0,1.5791781,0};
+				position[]={5626.644,9.5367432e-005,551.65503};
+				angles[]={0,1.5791739,0};
 			};
 			side="Empty";
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=3356;
 			type="Land_Destroyer_01_base_F";
@@ -26093,6 +26087,25 @@ class Mission
 			class CustomAttributes
 			{
 				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
 				{
 					property="CustomShipNumber1";
 					expression="[([_this, 'Land_Destroyer_01_hull_01_F'] call bis_fnc_destroyer01GetShipPart), _value, 0] spawn bis_fnc_destroyer01InitHullNumbers;";
@@ -26111,7 +26124,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute1
+				class Attribute2
 				{
 					property="CustomShipNumber2";
 					expression="[([_this, 'Land_Destroyer_01_hull_01_F'] call bis_fnc_destroyer01GetShipPart), _value, 1] spawn bis_fnc_destroyer01InitHullNumbers;";
@@ -26130,7 +26143,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute2
+				class Attribute3
 				{
 					property="CustomShipNumber3";
 					expression="[([_this, 'Land_Destroyer_01_hull_01_F'] call bis_fnc_destroyer01GetShipPart), _value, 2] spawn bis_fnc_destroyer01InitHullNumbers;";
@@ -26149,7 +26162,7 @@ class Mission
 						};
 					};
 				};
-				nAttributes=3;
+				nAttributes=4;
 			};
 		};
 		class Item474
@@ -31384,6 +31397,7 @@ class Mission
 			class Attributes
 			{
 				textures="genericnavyE";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -31575,6 +31589,7 @@ class Mission
 			class Attributes
 			{
 				textures="genericnavyE";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -31767,6 +31782,7 @@ class Mission
 			class Attributes
 			{
 				textures="genericnavyE";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -31958,6 +31974,7 @@ class Mission
 			class Attributes
 			{
 				textures="genericnavyE";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -32150,6 +32167,7 @@ class Mission
 			class Attributes
 			{
 				textures="genericnavyE";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -32341,6 +32359,7 @@ class Mission
 			class Attributes
 			{
 				textures="genericnavyE";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -32532,6 +32551,7 @@ class Mission
 			class Attributes
 			{
 				textures="VFA105_2017";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -32724,6 +32744,7 @@ class Mission
 			class Attributes
 			{
 				textures="VFA105_2017";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -32916,6 +32937,7 @@ class Mission
 			class Attributes
 			{
 				textures="VFA105_2017";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -33107,6 +33129,7 @@ class Mission
 			class Attributes
 			{
 				textures="genericusmc";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -33291,13 +33314,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5843.0928,25.843111,265.98764};
+				position[]={5843.0933,25.843103,265.9877};
 				angles[]={0,0.59086376,0};
 			};
 			side="Empty";
 			class Attributes
 			{
 				textures="genericusmc";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -33306,7 +33330,7 @@ class Mission
 			};
 			id=3482;
 			type="JS_JC_FA18E";
-			atlOffset=61.162006;
+			atlOffset=61.161999;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -33489,6 +33513,7 @@ class Mission
 			class Attributes
 			{
 				textures="genericusmc";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -33680,6 +33705,7 @@ class Mission
 			class Attributes
 			{
 				textures="VFA22CAG_2017";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -33872,6 +33898,7 @@ class Mission
 			class Attributes
 			{
 				textures="VFA32CAG_2017";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -34055,8 +34082,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5899.2153,25.715698,288.11258};
-				angles[]={-0,3.1075144,0};
+				position[]={5871.5781,23.691914,285.60516};
+				angles[]={0,4.7083573,-0};
 			};
 			side="Empty";
 			flags=4;
@@ -34065,8 +34092,8 @@ class Mission
 				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
-			id=3489;
-			type="RHS_UH1Y_UNARMED_d";
+			id=3493;
+			type="rhsusf_CH53E_USMC_D";
 			class CustomAttributes
 			{
 				class Attribute0
@@ -34090,8 +34117,8 @@ class Mission
 				};
 				class Attribute1
 				{
-					property="VehicleCustomization";
-					expression="if (local _this) then {if (isSimpleObject _this) then {_this setVariable ['bis_fnc_initVehicle_customization',_value]} else {([_this] + _value + [true]) call (uinamespace getvariable 'bis_fnc_initVehicle');};};";
+					property="rhs_decalNumber_type";
+					expression="_this setVariable ['rhs_decalNumber_type', _value];[_this,[['Number', cCH53NumberPlaces, _value]]] call rhsusf_fnc_decalsInit";
 					class Value
 					{
 						class data
@@ -34100,155 +34127,10 @@ class Mission
 							{
 								type[]=
 								{
-									"ARRAY"
+									"STRING"
 								};
 							};
-							class value
-							{
-								items=2;
-								class Item0
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"ARRAY"
-											};
-										};
-									};
-								};
-								class Item1
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"ARRAY"
-											};
-										};
-										class value
-										{
-											items=8;
-											class Item0
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="hide_mg";
-												};
-											};
-											class Item1
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=1;
-												};
-											};
-											class Item2
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="hide_FrontDoors";
-												};
-											};
-											class Item3
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=0;
-												};
-											};
-											class Item4
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="hide_CargoDoors";
-												};
-											};
-											class Item5
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=0;
-												};
-											};
-											class Item6
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="mainRotor_folded";
-												};
-											};
-											class Item7
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=1;
-												};
-											};
-										};
-									};
-								};
-							};
+							value="USMCGrey";
 						};
 					};
 				};
@@ -34267,7 +34149,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""rhs_weap_m4_carryhandle"",""FirstAidKit"",""Medikit""],[2,10,2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[12,4,2,2,4]],[[],[]],[[""B_Parachute""],[4]]],false]";
+							value="[[[[""FirstAidKit""],[4]],[[],[]],[[""ToolKit"",""ItemGPS"",""ItemRadio""],[1,1,1]],[[],[]]],false]";
 						};
 					};
 				};
@@ -34279,687 +34161,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5892.415,25.715698,288.07034};
-				angles[]={-0,3.1075144,0};
+				position[]={5833.5449,23.691919,285.58087};
+				angles[]={-0,4.7083573,0};
 			};
 			side="Empty";
 			flags=4;
-			class Attributes
-			{
-				disableSimulation=1;
-			};
-			id=3490;
-			type="RHS_UH1Y_UNARMED_d";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="allowDamage";
-					expression="_this allowdamage _value;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="VehicleCustomization";
-					expression="if (local _this) then {if (isSimpleObject _this) then {_this setVariable ['bis_fnc_initVehicle_customization',_value]} else {([_this] + _value + [true]) call (uinamespace getvariable 'bis_fnc_initVehicle');};};";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"ARRAY"
-								};
-							};
-							class value
-							{
-								items=2;
-								class Item0
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"ARRAY"
-											};
-										};
-									};
-								};
-								class Item1
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"ARRAY"
-											};
-										};
-										class value
-										{
-											items=8;
-											class Item0
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="hide_mg";
-												};
-											};
-											class Item1
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=1;
-												};
-											};
-											class Item2
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="hide_FrontDoors";
-												};
-											};
-											class Item3
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=0;
-												};
-											};
-											class Item4
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="hide_CargoDoors";
-												};
-											};
-											class Item5
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=0;
-												};
-											};
-											class Item6
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="mainRotor_folded";
-												};
-											};
-											class Item7
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=1;
-												};
-											};
-										};
-									};
-								};
-							};
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[""rhs_weap_m4_carryhandle"",""FirstAidKit"",""Medikit""],[2,10,2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[12,4,2,2,4]],[[],[]],[[""B_Parachute""],[4]]],false]";
-						};
-					};
-				};
-				nAttributes=3;
-			};
-		};
-		class Item505
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={5886.686,25.715698,287.88861};
-				angles[]={-0,3.1075144,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				disableSimulation=1;
-			};
-			id=3491;
-			type="RHS_UH1Y_UNARMED_d";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="allowDamage";
-					expression="_this allowdamage _value;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="VehicleCustomization";
-					expression="if (local _this) then {if (isSimpleObject _this) then {_this setVariable ['bis_fnc_initVehicle_customization',_value]} else {([_this] + _value + [true]) call (uinamespace getvariable 'bis_fnc_initVehicle');};};";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"ARRAY"
-								};
-							};
-							class value
-							{
-								items=2;
-								class Item0
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"ARRAY"
-											};
-										};
-									};
-								};
-								class Item1
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"ARRAY"
-											};
-										};
-										class value
-										{
-											items=8;
-											class Item0
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="hide_mg";
-												};
-											};
-											class Item1
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=1;
-												};
-											};
-											class Item2
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="hide_FrontDoors";
-												};
-											};
-											class Item3
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=0;
-												};
-											};
-											class Item4
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="hide_CargoDoors";
-												};
-											};
-											class Item5
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=0;
-												};
-											};
-											class Item6
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="mainRotor_folded";
-												};
-											};
-											class Item7
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=1;
-												};
-											};
-										};
-									};
-								};
-							};
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[""rhs_weap_m4_carryhandle"",""FirstAidKit"",""Medikit""],[2,10,2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[12,4,2,2,4]],[[],[]],[[""B_Parachute""],[4]]],false]";
-						};
-					};
-				};
-				nAttributes=3;
-			};
-		};
-		class Item506
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={5879.8857,25.715698,287.84637};
-				angles[]={-0,3.1075144,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				disableSimulation=1;
-			};
-			id=3492;
-			type="RHS_UH1Y_UNARMED_d";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="allowDamage";
-					expression="_this allowdamage _value;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="VehicleCustomization";
-					expression="if (local _this) then {if (isSimpleObject _this) then {_this setVariable ['bis_fnc_initVehicle_customization',_value]} else {([_this] + _value + [true]) call (uinamespace getvariable 'bis_fnc_initVehicle');};};";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"ARRAY"
-								};
-							};
-							class value
-							{
-								items=2;
-								class Item0
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"ARRAY"
-											};
-										};
-									};
-								};
-								class Item1
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"ARRAY"
-											};
-										};
-										class value
-										{
-											items=8;
-											class Item0
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="hide_mg";
-												};
-											};
-											class Item1
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=1;
-												};
-											};
-											class Item2
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="hide_FrontDoors";
-												};
-											};
-											class Item3
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=0;
-												};
-											};
-											class Item4
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="hide_CargoDoors";
-												};
-											};
-											class Item5
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=0;
-												};
-											};
-											class Item6
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="mainRotor_folded";
-												};
-											};
-											class Item7
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=1;
-												};
-											};
-										};
-									};
-								};
-							};
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[""rhs_weap_m4_carryhandle"",""FirstAidKit"",""Medikit""],[2,10,2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[12,4,2,2,4]],[[],[]],[[""B_Parachute""],[4]]],false]";
-						};
-					};
-				};
-				nAttributes=3;
-			};
-		};
-		class Item507
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={5847.7007,23.691475,286.55881};
-				angles[]={0,4.6788611,0};
-			};
-			side="Empty";
 			class Attributes
 			{
 				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
-			id=3493;
+			id=3499;
 			type="rhsusf_CH53E_USMC_D";
-			atlOffset=61.161999;
 			class CustomAttributes
 			{
 				class Attribute0
