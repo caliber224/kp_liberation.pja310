@@ -1665,6 +1665,7 @@ GRLIB_arsenal_items = [
 "sma_spitfire_03_rds_black",
 "sma_spitfire_03_rds_low_black",
 "sma_spitfire_03_rds_low_ard_black",
+"B_UavTerminal",
 "SMA_AIMPOINT",
 "SMA_AIMPOINT_GLARE",
 "SMA_BARSKA",
