@@ -102,7 +102,7 @@ KP_liberation_preset_civilians = 2;
 7 = GM West arsenal preset.
 8 = GM East arsenal preset.
 9 = CSAT arsenal preset. */
-KP_liberation_arsenal = 0;
+KP_liberation_arsenal = 1;
 
 /* - Fuel consumption settings.
 Time in minutes till a full tank depletes whilst the vehicle is standing still with a running engine.	*/

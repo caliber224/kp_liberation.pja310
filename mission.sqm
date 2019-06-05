@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=801;
+		nextID=1101;
 	};
 	class Camera
 	{
-		pos[]={5935.8877,41.765316,275.38474};
-		dir[]={0.028237887,-0.65358889,0.75647211};
-		up[]={0.024392031,0.75662643,0.65338647};
-		aside[]={0.99940801,-5.4394604e-007,-0.037311725};
+		pos[]={20197.299,5.9701533,256.12683};
+		dir[]={-0.37398782,-0.62391287,-0.68622857};
+		up[]={-0.29859248,0.78144765,-0.54788411};
+		aside[]={-0.87808508,-4.877802e-007,0.4785496};
 	};
 };
 binarizationWanted=0;
@@ -1210,8 +1210,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20191.039,3.274678,256.14008};
-						angles[]={0,0.0032733108,0};
+						position[]={20191.039,3.274678,256.13998};
+						angles[]={0,0.0032812189,0};
 					};
 					side="West";
 					flags=6;
@@ -2000,13 +2000,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20198.074,3.274678,253.67305};
+						position[]={20198.074,3.274678,253.673};
 					};
 					side="West";
 					flags=6;
 					class Attributes
 					{
 						rank="LIEUTENANT";
+						name="p1";
 						description="Helicopter Pilot";
 						isPlayable=1;
 					};
@@ -2060,13 +2061,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20198.088,3.274678,252.51826};
+						position[]={20198.088,3.274678,252.51801};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
 						rank="LIEUTENANT";
+						name="p2";
 						description="Helicopter Pilot";
 						isPlayable=1;
 					};
@@ -2120,13 +2122,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20198.092,3.274678,251.45503};
+						position[]={20198.092,3.274678,251.455};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
 						rank="LIEUTENANT";
+						name="p3";
 						description="Helicopter Pilot";
 						isPlayable=1;
 					};
@@ -2180,13 +2183,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20198.098,3.274678,250.30391};
+						position[]={20198.098,3.274678,250.304};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
 						rank="LIEUTENANT";
+						name="p4";
 						description="Helicopter Pilot";
 						isPlayable=1;
 					};
@@ -2240,13 +2244,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20198.088,3.274678,249.23091};
+						position[]={20198.088,3.274678,249.231};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
 						rank="LIEUTENANT";
+						name="p5";
 						description="Helicopter Pilot";
 						isPlayable=1;
 					};
