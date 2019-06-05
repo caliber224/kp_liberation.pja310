@@ -10,7 +10,7 @@ allowFunctionsLog = 0;
 briefingName = $STR_MISSION_TITLE;
 overviewText = "www.killahpotatoes.de";
 overviewPicture = "res\lib.paa";
-author = "[GREUH] Zbug, [GREUH] McKeewa, [KP] Wyqer";
+author = "[GREUH] Zbug, [GREUH] McKeewa, [KP] Wyqer,  TEWU";
 onLoadName = $STR_MISSION_TITLE;
 onLoadMission = "www.killahpotatoes.de";
 loadScreen = "res\lib.paa";
@@ -31,4 +31,22 @@ class CfgDebriefing
 		description = $STR_COMMANDER_NOT_AUTHORIZED;
 		pictureBackground = "";
 	};
+    class permission
+    {
+        title = "无法使用该角色进入游戏";
+		subtitle = "你不在白名单内";
+		description = "请寻找管理员索要权限。QQ群:364312593";
+		picture = "";
+		pictureColor[] = {0.0,0.5,0.0,1};
+
+    };
+    class ts
+    {
+        title = "无法进入游戏";
+		subtitle = "没有检测到您的TS3";
+		description = "详情咨询QQ群:364312593";
+		picture = "";
+		pictureColor[] = {0.0,0.5,0.0,1};
+
+    };
 };

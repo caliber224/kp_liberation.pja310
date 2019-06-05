@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=3347;
+		nextID=3355;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1101;
+		nextID=1251;
 	};
 	class Camera
 	{
-		pos[]={20197.299,5.9701533,256.12683};
-		dir[]={-0.37398782,-0.62391287,-0.68622857};
-		up[]={-0.29859248,0.78144765,-0.54788411};
-		aside[]={-0.87808508,-4.877802e-007,0.4785496};
+		pos[]={5929.96,101.8984,174.57436};
+		dir[]={0.018376185,-0.61608845,0.78754669};
+		up[]={0.014378946,0.78742921,0.6162318};
+		aside[]={0.99978441,-4.2103329e-007,-0.023329698};
 	};
 };
 binarizationWanted=0;
@@ -70,13 +70,14 @@ addons[]=
 	"ace_dragging",
 	"A3_Static_F_Jets_AAA_System_01",
 	"A3_Static_F_Jets_SAM_System_02",
-	"A3_Static_F_Jets_SAM_System_01"
+	"A3_Static_F_Jets_SAM_System_01",
+	"A3_Structures_F_Argo_Commercial_Billboards"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=21;
+		items=22;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -224,6 +225,13 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item21
+		{
+			className="A3_Structures_F_Argo";
+			name="Arma 3 Malden - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=4729305;
@@ -297,7 +305,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=480;
+		items=483;
 		class Item0
 		{
 			dataType="Marker";
@@ -2740,7 +2748,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5831.1382,24.153391,283.10602};
+				position[]={5831.1382,24.391289,283.10602};
 				angles[]={0,4.712389,0};
 			};
 			side="Empty";
@@ -2750,7 +2758,7 @@ class Mission
 			};
 			id=599;
 			type="Land_ClutterCutter_small_F";
-			atlOffset=0.62485123;
+			atlOffset=0.8627491;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2780,7 +2788,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5780.2085,24.146259,283.46426};
+				position[]={5780.2085,24.270016,283.46426};
 				angles[]={0,4.712389,0};
 			};
 			side="Empty";
@@ -2790,7 +2798,7 @@ class Mission
 			};
 			id=600;
 			type="Land_ClutterCutter_small_F";
-			atlOffset=0.607584;
+			atlOffset=0.73134041;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2909,16 +2917,16 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5933.5151,27.495901,288.474};
+				position[]={5934.4268,27.505346,279.13232};
 				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=659;
 			type="Flag_US_F";
-			atlOffset=61.153;
 		};
 		class Item53
 		{
@@ -26203,6 +26211,132 @@ class Mission
 			id=3346;
 			type="B_SAM_System_02_F";
 			atlOffset=57.358887;
+		};
+		class Item480
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5951.5469,23.597725,297.83051};
+				angles[]={0,6.2773643,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+				init="call{this setObjectTextureGlobal [0, ""pic\007.jpg""] " \n "}";
+				disableSimulation=1;
+			};
+			id=3347;
+			type="Land_Billboard_03_blank_F";
+			atlOffset=59.275772;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item481
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5945.499,23.595787,297.85095};
+				angles[]={0,0.011172039,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+				init="call{this setObjectTextureGlobal [0, ""pic\089.jpg""] " \n "}";
+				disableSimulation=1;
+			};
+			id=3348;
+			type="Land_Billboard_03_blank_F";
+			atlOffset=59.273834;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item482
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5924.4316,23.719639,279.50443};
+				angles[]={0,0.0042871768,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+				init="call{this setObjectTextureGlobal [0, ""pic\0547.jpg""] " \n "}";
+				disableSimulation=1;
+			};
+			id=3349;
+			type="Land_Billboard_03_blank_F";
+			atlOffset=59.39769;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 	class Connections
