@@ -1794,7 +1794,6 @@ GRLIB_arsenal_items = [
 "rhs_acc_dtk4short",
 "rhs_acc_uuk",
 "rhs_acc_tgpa",
-
 "rhsusf_mich_helmet_marpatd",
 "rhsusf_mich_helmet_marpatd_alt",
 "rhsusf_mich_helmet_marpatd_alt_headset",
@@ -1866,7 +1865,9 @@ GRLIB_arsenal_items = [
 "milgp_v_mmac_medic_CB",
 "milgp_v_mmac_medic_belt_CB",
 "milgp_v_mmac_teamleader_CB",
-"milgp_v_mmac_teamleader_belt_CB"
+"milgp_v_mmac_teamleader_belt_CB",
+"JS_JC_FA18_PilotCoveralls",
+"JS_JC_FA18_PilotHelmet"
 ];
 
 GRLIB_arsenal_backpacks = [

@@ -492,7 +492,9 @@ GRLIB_arsenal_items = [
 	"rhsusf_spcs_ocp_rifleman",
 	"rhsusf_spcs_ucp",
 	"rhsusf_spcs_ucp_rifleman",
-	"rhs_weap_optic_smaw"
+	"rhs_weap_optic_smaw",
+	"JS_JC_FA18_PilotCoveralls",
+	"JS_JC_FA18_PilotHelmet"
 ];
 
 GRLIB_arsenal_backpacks = [
