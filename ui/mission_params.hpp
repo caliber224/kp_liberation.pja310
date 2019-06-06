@@ -82,7 +82,7 @@ class Params
 		title = $STR_PARAMS_DAYDURATION;
 		values[] = {48, 24, 16, 12, 8, 6, 4, 3, 2, 1};
 		texts[] = {"0.5","1","1.5","2","3","4","6","8","12","24"};
-		default = 2;
+		default = 1;
 	};
 	class ShorterNights {
 		title = $STR_SHORTER_NIGHTS_PARAM;
@@ -94,7 +94,7 @@ class Params
 		title = $STR_WEATHER_PARAM;
 		values[] = { 1,2,3 };
 		texts[] = { $STR_WEATHER_PARAM1, $STR_WEATHER_PARAM2, $STR_WEATHER_PARAM3 };
-		default = 1;
+		default = 2;
 	};
 	class ResourcesMultiplier {
 		title = $STR_PARAMS_RESOURCESMULTIPLIER;
@@ -208,7 +208,7 @@ class Params
 		title = $STR_PARAM_RESPAWN_COOLDOWN;
 		values[] = {0, 300, 600, 900, 1200, 1800, 3600};
 		texts[] = {$STR_PARAMS_DISABLED, 5, 10, 15, 20, 30, 60};
-		default = 600;
+		default = 300;
 	};
 	class MobileArsenal {
 		title = $STR_PARAMS_MOBILEARSENAL;
