@@ -310,6 +310,7 @@ GRLIB_arsenal_weapons = [
 ];
 
 GRLIB_arsenal_magazines = [
+"ACE_M84",
 "SMA_30Rnd_762x35_BLK_EPR",
 "SMA_30Rnd_762x35_SS",
 "SMA_30Rnd_68x43_SPC_FMJ",
