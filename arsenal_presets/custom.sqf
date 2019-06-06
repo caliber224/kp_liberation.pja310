@@ -310,6 +310,7 @@ GRLIB_arsenal_weapons = [
 ];
 
 GRLIB_arsenal_magazines = [
+"ACE_M84",
 "SMA_30Rnd_762x35_BLK_EPR",
 "SMA_30Rnd_762x35_SS",
 "SMA_30Rnd_68x43_SPC_FMJ",
@@ -745,17 +746,12 @@ GRLIB_arsenal_items = [
 "rhsusf_acc_su230a_c",
 "rhsusf_acc_su230a_mrds_c",
 "rhsusf_acc_anpvs27",
-"rhsusf_acc_anpas13gv1",
 "rhsusf_acc_M2A1",
 "rhsusf_acc_ACOG_MDO",
 "rhs_acc_rakursPM",
 "rhs_acc_dh520x56",
 "rhs_acc_ekp8_18",
 "rhs_acc_1p87",
-"optic_Nightstalker",
-"optic_tws",
-"optic_tws_mg",
-"optic_NVS",
 "optic_SOS",
 "optic_SOS_khk_F",
 "optic_MRCO",

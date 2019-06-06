@@ -22,7 +22,7 @@ class Params
 		title = $STR_PARAMS_UNITCAP;
 		values[] = {0,1,2,3,4,5};
 		texts[] = {$STR_PARAMS_UNITCAP1,$STR_PARAMS_UNITCAP2,$STR_PARAMS_UNITCAP3,$STR_PARAMS_UNITCAP4,$STR_PARAMS_UNITCAP5,$STR_PARAMS_UNITCAP6};
-		default = 5;
+		default = 2;
 	};
 	class Difficulty {
 		title = $STR_PARAMS_DIFFICULTY;
@@ -70,7 +70,7 @@ class Params
 		title = $STR_PARAM_BLUFOR_DEFENDERS;
 		values[] = {1,0};
 		texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-		default = 1;
+		default = 0;
 	};
 	class Autodanger {
 		title = $STR_PARAM_AUTODANGER;
@@ -238,7 +238,7 @@ class Params
 		title = $STR_HALO_PARAM;
 		values[] = {1,5,10,15,20,30,0};
 		texts[] = { $STR_HALO_PARAM1, $STR_HALO_PARAM2, $STR_HALO_PARAM3, $STR_HALO_PARAM4, $STR_HALO_PARAM5, $STR_HALO_PARAM6, $STR_PARAMS_DISABLED };
-		default = 15;
+		default = 0;
 	};
 	class ClearCargo {
 		title = $STR_PARAM_CLEAR_CARGO;
@@ -262,7 +262,7 @@ class Params
 		title = $STR_PERMISSIONS_PARAM;
 		values[] = {1,0};
 		texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-		default = 0;
+		default = 1;
 	};
 	class CleanupVehicles {
 		title = $STR_CLEANUP_PARAM;

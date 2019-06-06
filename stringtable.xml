@@ -6684,41 +6684,49 @@
             <Original>Load/Save Parameters</Original>
             <German>Laden/Speichern der Parameter</German>
             <Italian>Carica/Salva Parametri</Italian>
+            </Chinesesimp>加载/保存参数</Chinesesimp>
         </Key>
         <Key ID="STR_PARAMS_LOADSAVEPARAMS_SAVE">
             <Original>SAVE selected parameters</Original>
             <German>SPEICHERN der momentanen Parameter</German>
             <Italian>SALVA i parametri</Italian>
+            </Chinesesimp>保存选中参数</Chinesesimp>
         </Key>
         <Key ID="STR_PARAMS_LOADSAVEPARAMS_LOAD">
             <Original>LOAD parameters or use selected if no saved value found</Original>
             <German>LADEN der gespeicherten Parameter oder momentane nutzen, wenn keine gespeicherten vorhanden sind</German>
             <Italian>CARICA parametri o utilizza selezionati se non è stato trovato alcun valore salvato</Italian>
+            </Chinesesimp>如果未找到保存的值，则加载参数或使用</Chinesesimp>
         </Key>
         <Key ID="STR_PARAMS_LOADSAVEPARAMS_SELECTED">
             <Original>Use selected parameters without saving</Original>
             <German>Momentane Parametereinstellung ohne Speicherung</German>
             <Italian>Usa i parametri selezionati senza salvare</Italian>
+            </Chinesesimp>使用所选参数而不保存</Chinesesimp>
         </Key>
         <Key ID="STR_RAISE">
             <Original>-- Raise</Original>
             <German>-- Höher</German>
             <Italian>-- Aumenta</Italian>
+            </Chinesesimp>提升</Chinesesimp>
         </Key>
         <Key ID="STR_LOWER">
             <Original>-- Lower</Original>
             <German>-- Niedriger</German>
             <Italian>-- Abbassa</Italian>
+            </Chinesesimp>降低</Chinesesimp>
         </Key>
         <Key ID="STR_NOTIFICATION_GUER_INC_TITLE">
             <Original>Guerilla forces on the way.</Original>
             <German>Widerstandskämpfer sind unterwegs.</German>
             <Italian>Guerriglieri in arrivo.</Italian>
+            </Chinesesimp>游击队在途中。</Chinesesimp>
         </Key>
         <Key ID="STR_NOTIFICATION_GUER_INC">
             <Original>Guerilla forces are incoming to %1 from the %2.</Original>
             <German>Widerstandskämpfer nähern sich %1 aus %2.</German>
             <Italian>Guerriglieri in arrivo su %1 da %2.</Italian>
+            </Chinesesimp>游击队队员从 %2 进入 %1。</Chinesesimp>
         </Key>
         <Key ID="STR_PARAMS_REVIVEOPTIONS">
             <Original>== REVIVE OPTIONS (Disregarded, if you play with ACE Medical) ==</Original>
@@ -6736,16 +6744,19 @@
             <Original>Arsenal</Original>
             <German>Arsenal</German>
             <Italian>Arsenale</Italian>
+            </Chinesesimp>军火库</Chinesesimp>
         </Key>
         <Key ID="STR_PARAMS_ARSENAL_BI">
             <Original>BI arsenal</Original>
             <German>BI Arsenal</German>
             <Italian>BI Arsenale</Italian>
+            </Chinesesimp>原版军火库</Chinesesimp>
         </Key>
         <Key ID="STR_PARAMS_ARSENAL_ACE">
             <Original>ACE arsenal</Original>
             <German>ACE Arsenal</German>
             <Italian>ACE Arsenale</Italian>
+            </Chinesesimp>ACE军火库</Chinesesimp>
         </Key>
     </Package>
 </Project>
