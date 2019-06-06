@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1751;
+		nextID=1701;
 	};
 	class Camera
 	{
-		pos[]={5615.5454,21.866245,470.86588};
-		dir[]={0.86011845,-0.033530641,0.50923157};
-		up[]={0.029274322,0.99941546,0.017332833};
-		aside[]={0.50951248,-1.710956e-006,-0.86059517};
+		pos[]={5766.9829,81.77549,435.60995};
+		dir[]={-0.56748646,-0.61177522,0.55129921};
+		up[]={-0.43902472,0.79078424,0.42650089};
+		aside[]={0.69688189,-5.0425297e-007,0.71734059};
 	};
 };
 binarizationWanted=0;
@@ -2190,7 +2190,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5950.0425,23.528542,283.13889};
-				angles[]={0,4.7025313,0};
+				angles[]={0,4.7025313,-0};
 			};
 			side="Empty";
 			flags=4;
@@ -2462,7 +2462,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5930.8159,27.505346,279.04153};
-				angles[]={0,1.5707964,0};
+				angles[]={0,1.5707964,-0};
 			};
 			side="Empty";
 			flags=4;
@@ -31390,13 +31390,14 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5709.5679,25.907104,241.1347};
-				angles[]={0,0.41607895,0};
+				angles[]={-0,0.41607895,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				textures="genericnavyE";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -31588,6 +31589,7 @@ class Mission
 			class Attributes
 			{
 				textures="genericnavyE";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -31773,13 +31775,14 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5698.9888,25.907104,241.86171};
-				angles[]={0,0.40143239,0};
+				angles[]={-0,0.40143239,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				textures="genericnavyE";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -31971,6 +31974,7 @@ class Mission
 			class Attributes
 			{
 				textures="genericnavyE";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -32156,13 +32160,14 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5667.3013,25.906826,244.49608};
-				angles[]={0,0.53945547,0};
+				angles[]={0,0.53945547,-0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				textures="genericnavyE";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -32347,13 +32352,14 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5678.3105,25.906826,243.28238};
-				angles[]={0,0.55267411,0};
+				angles[]={0,0.55267411,-0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				textures="genericnavyE";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -32538,13 +32544,14 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5799.1445,25.853445,258.58414};
-				angles[]={0,0.54059404,0};
+				angles[]={-0,0.54059404,-0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				textures="VFA105_2017";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -32730,13 +32737,14 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5787.5103,25.853428,257.38864};
-				angles[]={0,0.51208484,0};
+				angles[]={-0,0.51208484,-0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				textures="VFA105_2017";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -32922,13 +32930,14 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5809.5313,25.853476,260.17172};
-				angles[]={0,0.49510637,0};
+				angles[]={-0,0.49510637,-0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				textures="VFA105_2017";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -33120,6 +33129,7 @@ class Mission
 			class Attributes
 			{
 				textures="genericusmc";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -33311,6 +33321,7 @@ class Mission
 			class Attributes
 			{
 				textures="genericusmc";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -33502,6 +33513,7 @@ class Mission
 			class Attributes
 			{
 				textures="genericusmc";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -33693,6 +33705,7 @@ class Mission
 			class Attributes
 			{
 				textures="VFA22CAG_2017";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -33878,13 +33891,14 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5898.2344,25.858582,217.60861};
-				angles[]={0.00048828125,0.48636979,0};
+				angles[]={0.00048828125,0.48636979,-0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				textures="VFA32CAG_2017";
+				createAsSimpleObject=1;
 				disableSimulation=1;
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -34069,16 +34083,17 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5871.5781,23.691914,285.60516};
-				angles[]={0,4.7083573,0};
+				angles[]={0,4.7083573,-0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=3493;
 			type="rhsusf_CH53E_USMC_D";
-			atlOffset=61.162437;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -34146,18 +34161,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5833.5449,23.691921,285.58087};
-				angles[]={0,4.7083573,0};
+				position[]={5833.5449,23.691919,285.58087};
+				angles[]={-0,4.7083573,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=3499;
 			type="rhsusf_CH53E_USMC_D";
-			atlOffset=9.5367432e-006;
 			class CustomAttributes
 			{
 				class Attribute0
