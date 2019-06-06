@@ -58,13 +58,13 @@ class Params
 		title = $STR_PARAM_FOBS_COUNT;
 		values[] = {3,5,7,10,15,20,26};
 		texts[] = {3,5,7,10,15,20,26};
-		default = 3;
+		default = 7;
 	};
 	class MaxSquadSize {
 		title = $STR_PARAM_SQUAD_SIZE;
 		values[] = {0,1,2,4,6,8,10,12,16,20,24,30,36};
 		texts[] = {0,1,2,4,6,8,10,12,16,20,24,30,36};
-		default = 2;
+		default = 6;
 	};
 	class BluforDefenders {
 		title = $STR_PARAM_BLUFOR_DEFENDERS;
@@ -82,31 +82,31 @@ class Params
 		title = $STR_PARAMS_DAYDURATION;
 		values[] = {48, 24, 16, 12, 8, 6, 4, 3, 2, 1};
 		texts[] = {"0.5","1","1.5","2","3","4","6","8","12","24"};
-		default = 1;
+		default = 2;
 	};
 	class ShorterNights {
 		title = $STR_SHORTER_NIGHTS_PARAM;
 		values[] = {1,0};
 		texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-		default = 0;
+		default = 1;
 	};
 	class Weather {
 		title = $STR_WEATHER_PARAM;
 		values[] = { 1,2,3 };
 		texts[] = { $STR_WEATHER_PARAM1, $STR_WEATHER_PARAM2, $STR_WEATHER_PARAM3 };
-		default = 2;
+		default = 1;
 	};
 	class ResourcesMultiplier {
 		title = $STR_PARAMS_RESOURCESMULTIPLIER;
 		values[] = { 0, 1, 2, 3, 4, 5, 6, 7 };
 		texts[] = { "x0.25", "x0.5", "x0.75", "x1", "x1.25","x1.5","x2","x3" };
-		default = 3;
+		default = 0;
 	};
 	class ArsenalType {
 		title = $STR_PARAMS_ARSENAL;
 		values[] = {0, 1};
 		texts[] = {$STR_PARAMS_ARSENAL_BI, $STR_PARAMS_ARSENAL_ACE};
-		default = "1";
+		default = 1;
 	};
 	class Spacer1 {
 		title = "";
@@ -124,7 +124,7 @@ class Params
 		title = $STR_A3_ReviveMode;
 		values[] = {0,1};
 		texts[] = {$STR_A3_Disabled, $STR_A3_EnabledForAllPlayers};
-		default = 1;
+		default = 0;
 	};
 	class ReviveDuration {
 		title = $STR_A3_ReviveDuration;
@@ -208,7 +208,7 @@ class Params
 		title = $STR_PARAM_RESPAWN_COOLDOWN;
 		values[] = {0, 300, 600, 900, 1200, 1800, 3600};
 		texts[] = {$STR_PARAMS_DISABLED, 5, 10, 15, 20, 30, 60};
-		default = 900;
+		default = 600;
 	};
 	class MobileArsenal {
 		title = $STR_PARAMS_MOBILEARSENAL;
@@ -226,7 +226,7 @@ class Params
 		title = $STR_PARAM_TEAMKILL_PENALTY;
 		values[] = {1,0};
 		texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-		default = 0;
+		default = 1;
 	};
 	class CR_Building {
 		title = $STR_PARAM_CR_BUILDING;
@@ -286,13 +286,13 @@ class Params
 		title = $STR_WHITELIST_PARAM;
 		values[] = { 1, 0 };
 		texts[] = { $STR_WHITELIST_ENABLED, $STR_PARAMS_DISABLED };
-		default = 0;
+		default = 1;
 	};
 	class ServerRestart {
 		title = $STR_RESTART_PARAM;
 		values[] = {0,1,2,3,4,5,6};
 		texts[] = {$STR_PARAMS_DISABLED,"1","2","3","4","5","6"};
-		default = 6;
+		default = 4;
 	};
 	class WipeSave1 {
 		title = $STR_WIPE_TITLE;
