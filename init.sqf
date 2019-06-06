@@ -1,3 +1,5 @@
+[]execVM "scripts\module_cleanup\init.sqf"
+
 enableSaving [ false, false ];
 
 if (isDedicated) then {debug_source = "Server";} else {debug_source = name player;};
