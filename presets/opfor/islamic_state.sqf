@@ -68,15 +68,8 @@ opfor_vehicles = [
 	"LOP_ISTS_OPF_M1025_W_M2",											//M10252 (M2)
 	"LOP_ISTS_OPF_M1025_W_Mk19",										//M1025A2 (Mk19)
 	"LOP_ISTS_OPF_Offroad_M2",											//Offroad (M2)
-	"LOP_ISTS_OPF_BMP2",												//BMP-2
 	"LOP_ISTS_OPF_BTR60",												//BTR-60PB
-	"LOP_ISTS_OPF_T34",													//T-34-85M
-	"LOP_ISTS_OPF_T55",													//T55A
-	"LOP_ISTS_OPF_T55",													//T55A
-	"LOP_ISTS_OPF_T72BA",												//T72B
-	"LOP_ISTS_OPF_T72BA",												//T72B
-	"LOP_ISTS_OPF_ZSU234",												//ZSU-23-4V
-	"LOP_ISTS_OPF_ZSU234"												//ZSU-23-4V
+	"LOP_ISTS_OPF_T34"													//T-34-85M
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
@@ -84,11 +77,7 @@ opfor_vehicles_low_intensity = [
 	"LOP_ISTS_OPF_Landrover_M2",										//Land Rover (M2)
 	"LOP_ISTS_OPF_Nissan_PKM",											//Nissan (PKM)
 	"LOP_ISTS_OPF_Nissan_PKM",											//Nissan (PKM)
-	"LOP_ISTS_OPF_Nissan_PKM",											//Nissan (PKM)
-	"LOP_ISTS_OPF_BMP1",												//BMP-1
-	"LOP_ISTS_OPF_BMP1",												//BMP-1
-	"LOP_ISTS_OPF_BMP2",												//BMP-2
-	"LOP_ISTS_OPF_BTR60"												//BTR-60PB
+	"LOP_ISTS_OPF_Nissan_PKM"											//Nissan (PKM)
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
@@ -100,19 +89,8 @@ opfor_battlegroup_vehicles = [
 	"LOP_ISTS_OPF_Offroad_M2",											//Offroad (M2)
 	"LOP_ISTS_OPF_Truck",												//Truck (Cargo)
 	"LOP_ISTS_OPF_Truck",												//Truck (Cargo)
-	"LOP_ISTS_OPF_BMP2",												//BMP-2
 	"LOP_ISTS_OPF_BTR60",												//BTR-60PB
-	"LOP_ISTS_OPF_T34",													//T-34-85M
-	"LOP_ISTS_OPF_T55",													//T55A
-	"LOP_ISTS_OPF_T55",													//T55A
-	"LOP_ISTS_OPF_T72BA",												//T72B
-	"LOP_ISTS_OPF_T72BA",												//T72B
-	"LOP_ISTS_OPF_ZSU234",												//ZSU-23-4V
-	"LOP_ISTS_OPF_ZSU234",												//ZSU-23-4V
-	"LOP_TKA_Mi8MT_Cargo",												//Mi-8MT (Cargo)
-	"LOP_TKA_Mi24V_AT",													//Mi-24V (AT)
-	"LOP_TKA_Mi24V_FAB",												//Mi-24V (FAB)
-	"LOP_TKA_Mi24V_UPK23"												//Mi-24V (UPK)
+	"LOP_ISTS_OPF_T34"													//T-34-85M
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
@@ -124,37 +102,22 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"LOP_ISTS_OPF_Truck",												//Truck (Cargo)
 	"LOP_ISTS_OPF_Truck",												//Truck (Cargo)
 	"LOP_ISTS_OPF_BMP1",												//BMP-1
-	"LOP_ISTS_OPF_BMP1",												//BMP-1
-	"LOP_ISTS_OPF_BMP2",												//BMP-2
-	"LOP_ISTS_OPF_BTR60",												//BTR-60PB
-	"LOP_ISTS_OPF_T34",													//T-34-85M
-	"LOP_ISTS_OPF_ZSU234",												//ZSU-23-4V
-	"LOP_TKA_Mi8MT_Cargo",												//Mi-8MT (Cargo)
-	"LOP_TKA_Mi24V_AT",													//Mi-24V (AT)
-	"LOP_TKA_Mi24V_FAB",												//Mi-24V (FAB)
-	"LOP_TKA_Mi24V_UPK23"												//Mi-24V (UPK)
+	"LOP_ISTS_OPF_BTR60"												//BTR-60PB
 ];
 
 /* All vehicles that spawn within battlegroups (see the above 2 arrays) and also hold 8 soldiers as passengers.
 If something in this array can't hold all 8 soldiers then buggy behaviours may occur.	*/
 opfor_troup_transports = [
 	"LOP_ISTS_OPF_Truck",												//Truck (Cargo)
-	"LOP_ISTS_OPF_BMP1",												//BMP-1
-	"LOP_ISTS_OPF_BMP2",												//BMP-2
 	"LOP_ISTS_OPF_BTR60",												//BTR-60PB
-	"LOP_TKA_Mi8MT_Cargo"												//Mi-8MT (Cargo)
 ];
 
 // Enemy rotary-wings that will need to spawn in flight.
 opfor_choppers = [
-	"LOP_TKA_Mi8MT_Cargo",												//Mi-8MT (Cargo)
-	"LOP_TKA_Mi24V_AT",													//Mi-24V (AT)
-	"LOP_TKA_Mi24V_FAB",												//Mi-24V (FAB)
-	"LOP_TKA_Mi24V_UPK23"												//Mi-24V (UPK)
+
 ];
 
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
-	"RHS_Su25SM_vvsc",													//Su-25
-	"RHS_Su25SM_KH29_vvsc"												//Su-25 (KH29)
+
 ];
