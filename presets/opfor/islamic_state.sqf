@@ -109,7 +109,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 If something in this array can't hold all 8 soldiers then buggy behaviours may occur.	*/
 opfor_troup_transports = [
 	"LOP_ISTS_OPF_Truck",												//Truck (Cargo)
-	"LOP_ISTS_OPF_BTR60",												//BTR-60PB
+	"LOP_ISTS_OPF_BTR60"												//BTR-60PB
 ];
 
 // Enemy rotary-wings that will need to spawn in flight.
