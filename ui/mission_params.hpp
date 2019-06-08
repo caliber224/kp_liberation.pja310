@@ -22,7 +22,7 @@ class Params
 		title = $STR_PARAMS_UNITCAP;
 		values[] = {0,1,2,3,4,5};
 		texts[] = {$STR_PARAMS_UNITCAP1,$STR_PARAMS_UNITCAP2,$STR_PARAMS_UNITCAP3,$STR_PARAMS_UNITCAP4,$STR_PARAMS_UNITCAP5,$STR_PARAMS_UNITCAP6};
-		default = 3;
+		default = 4;
 	};
 	class Difficulty {
 		title = $STR_PARAMS_DIFFICULTY;
@@ -64,7 +64,7 @@ class Params
 		title = $STR_PARAM_SQUAD_SIZE;
 		values[] = {0,1,2,4,6,8,10,12,16,20,24,30,36};
 		texts[] = {0,1,2,4,6,8,10,12,16,20,24,30,36};
-		default = 6;
+		default = 2;
 	};
 	class BluforDefenders {
 		title = $STR_PARAM_BLUFOR_DEFENDERS;
@@ -202,7 +202,7 @@ class Params
 		title = $STR_PARAMS_MOBILERESPAWN;
 		values[] = { 0, 1 };
 		texts[] = { $STR_PARAMS_DISABLED, $STR_PARAMS_ENABLED };
-		default = 0;
+		default = 2;
 	};
 	class RespawnCooldown {
 		title = $STR_PARAM_RESPAWN_COOLDOWN;
@@ -292,7 +292,7 @@ class Params
 		title = $STR_RESTART_PARAM;
 		values[] = {0,1,2,3,4,5,6};
 		texts[] = {$STR_PARAMS_DISABLED,"1","2","3","4","5","6"};
-		default = 4;
+		default = 3;
 	};
 	class WipeSave1 {
 		title = $STR_WIPE_TITLE;
@@ -358,12 +358,12 @@ class Params
 		title = $STR_PARAMS_DEBUG_SAVE;
 		values[] = {0, 1};
 		texts[] = {$STR_PARAMS_DISABLED, $STR_PARAMS_ENABLED};
-		default = 0;
+		default = 1;
 	};
 	class DebugSectorSpawn {
 		title = $STR_PARAMS_DEBUG_SECTORSPAWN;
 		values[] = {0, 1};
 		texts[] = {$STR_PARAMS_DISABLED, $STR_PARAMS_ENABLED};
-		default = 0;
+		default = 1;
 	};
 };
