@@ -306,10 +306,17 @@ GRLIB_arsenal_weapons = [
 "rhs_weap_ak103_2_npz",
 "rhs_weap_ak103_1_npz",
 "rhs_weap_ak104_zenitco01_b33",
-"rhs_weap_ak105_zenitco01_b33"
+"rhs_weap_ak105_zenitco01_b33",
+"launch_B_Titan_short_F",
+"launch_NLAW_F",
+"launch_I_Titan_short_F"
 ];
 
 GRLIB_arsenal_magazines = [
+"Titan_AT",
+"Titan_AP",
+"ACE_PreloadedMissileDummy",
+"NLAW_F",
 "ACE_M84",
 "SMA_30Rnd_762x35_BLK_EPR",
 "SMA_30Rnd_762x35_SS",
@@ -1863,7 +1870,13 @@ GRLIB_arsenal_items = [
 "milgp_v_mmac_teamleader_CB",
 "milgp_v_mmac_teamleader_belt_CB",
 "JS_JC_FA18_PilotCoveralls",
-"JS_JC_FA18_PilotHelmet"
+"JS_JC_FA18_PilotHelmet",
+"JAS_GPNVG18_blk",
+"JAS_GPNVG18_Tan",
+"JAS_GPNVG18_blk_TI",
+"JAS_GPNVG18_Tan_TI",
+"JAS_GPNVG18_Full_blk_TI",
+"JAS_GPNVG18_Full_Tan_TI"
 ];
 
 GRLIB_arsenal_backpacks = [
@@ -1923,6 +1936,15 @@ GRLIB_arsenal_backpacks = [
 "B_Parachute",
 "rhs_Tow_Gun_Bag",
 "rhs_TOW_Tripod_Bag",
-"ACE_TacticalLadder_Pack"
-
+"ACE_TacticalLadder_Pack",
+"B_TacticalPack_oli",
+"B_TacticalPack_rgr",
+"B_TacticalPack_mcamo",
+"B_Kitbag_tan",
+"B_Kitbag_mcamo",
+"B_Kitbag_cbr",
+"ace_gunbag_Tan",
+"B_FieldPack_cbr",
+"B_FieldPack_oli",
+"B_Bergen_mcamo_F"
 ];
