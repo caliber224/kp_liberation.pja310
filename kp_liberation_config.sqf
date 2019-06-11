@@ -150,7 +150,7 @@ GRLIB_battlegroup_cap = 150							* GRLIB_unitcap;											// Cap for enemy ba
 GRLIB_patrol_cap = 150								* GRLIB_unitcap;											// Cap for enemy patrols.
 
 KP_liberation_cr_kill_penalty = 1;																				// Civil Reputation penalty for killing a civilian.1
-KP_liberation_cr_building_penalty = 0.5;																			// Civil Reputation penalty for destroying/damaging a building.
+KP_liberation_cr_building_penalty = 0.5;																		// Civil Reputation penalty for destroying/damaging a building.
 KP_liberation_cr_vehicle_penalty = 0.5;																			// Civil Reputation penalty for stealing a civilian vehicle.
 KP_liberation_cr_resistance_penalty = 1;																		// Civil Reputation penalty for killing a friendly resistance soldier.
 KP_liberation_cr_sector_gain = 5;																				// Civil Reputation gain for liberate a sector.

@@ -1695,6 +1695,7 @@ GRLIB_arsenal_items = [
 "SMA_eotech",
 "SMA_eotech_T",
 "SMA_eotech_G",
+"ACE_NVG_Wide",
 "SMA_eotechG33_3XDOWN",
 "SMA_eotechG33_tan_3XDOWN",
 "SMA_eotechG33_grn_3XDOWN",
@@ -1876,11 +1877,19 @@ GRLIB_arsenal_items = [
 "JAS_GPNVG18_blk_TI",
 "JAS_GPNVG18_Tan_TI",
 "JAS_GPNVG18_Full_blk_TI",
-"JAS_GPNVG18_Full_Tan_TI"
+"JAS_GPNVG18_Full_Tan_TI", 
+"KAT_accuvac",
+"KAT_X_AED",
+"KAT_Pulseoximeter",
+"U_160thFlightSuit_ej",
+"Ej_pvs15"
 ];
 
 GRLIB_arsenal_backpacks = [
 "B_AssaultPack_mcamo",
+"Ej_skram_soar",
+"Ej_skram",
+"ej_survivalbag",
 "B_AssaultPack_cbr",
 "B_AssaultPack_khk",
 "B_Respawn_Sleeping_bag_brown_F",

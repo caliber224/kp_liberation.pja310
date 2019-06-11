@@ -58,7 +58,10 @@ militia_squad = [
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders.
 militia_vehicles = [
-	"LOP_AM_OPF_UAZ_DshKM"												//UAZ-3151 (DShKM)
+	"LOP_AM_OPF_UAZ_DshKM",												//UAZ-3151 (DShKM)
+	"LOP_ISTS_OPF_Landrover_SPG9",										//Land Rover (SPG)
+	"LOP_ISTS_OPF_Nissan_PKM",											//Nissan (PKM)
+	"LOP_AM_OPF_UAZ_SPG"												//UAZ-3151 (SPG)
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
@@ -69,12 +72,14 @@ opfor_vehicles = [
 	"LOP_ISTS_OPF_M1025_W_Mk19",										//M1025A2 (Mk19)
 	"LOP_ISTS_OPF_Offroad_M2",											//Offroad (M2)
 	"LOP_ISTS_OPF_BTR60",												//BTR-60PB
+	"LOP_ISTS_OPF_T55",													//T55A
 	"LOP_ISTS_OPF_T34"													//T-34-85M
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 opfor_vehicles_low_intensity = [
 	"LOP_ISTS_OPF_Landrover_M2",										//Land Rover (M2)
+	"LOP_ISTS_OPF_Landrover_SPG9",										//Land Rover (SPG)
 	"LOP_ISTS_OPF_Nissan_PKM",											//Nissan (PKM)
 	"LOP_ISTS_OPF_Nissan_PKM",											//Nissan (PKM)
 	"LOP_ISTS_OPF_Nissan_PKM"											//Nissan (PKM)
@@ -84,13 +89,19 @@ opfor_vehicles_low_intensity = [
 opfor_battlegroup_vehicles = [
 	"LOP_ISTS_OPF_Landrover_M2",										//Land Rover (M2)
 	"LOP_ISTS_OPF_Landrover_SPG9",										//Land Rover (SPG)
+	"LOP_ISTS_OPF_Landrover_SPG9",										//Land Rover (SPG)
 	"LOP_ISTS_OPF_M1025_W_M2",											//M10252 (M2)
 	"LOP_ISTS_OPF_M1025_W_Mk19",										//M1025A2 (Mk19)
 	"LOP_ISTS_OPF_Offroad_M2",											//Offroad (M2)
 	"LOP_ISTS_OPF_Truck",												//Truck (Cargo)
 	"LOP_ISTS_OPF_Truck",												//Truck (Cargo)
+	"LOP_ISTS_OPF_BMP1",												//BMP-1
+	"LOP_ISTS_OPF_BMP1",												//BMP-1
 	"LOP_ISTS_OPF_BTR60",												//BTR-60PB
-	"LOP_ISTS_OPF_T34"													//T-34-85M
+	"LOP_ISTS_OPF_BTR60",												//BTR-60PB
+	"LOP_ISTS_OPF_T34",													//T-34-85M
+	"LOP_ISTS_OPF_T55",													//T-55
+	"LOP_ISTS_OPF_ZSU234"												//ZSU
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
@@ -102,6 +113,8 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"LOP_ISTS_OPF_Truck",												//Truck (Cargo)
 	"LOP_ISTS_OPF_Truck",												//Truck (Cargo)
 	"LOP_ISTS_OPF_BMP1",												//BMP-1
+	"LOP_ISTS_OPF_BMP1",												//BMP-1
+	"LOP_ISTS_OPF_BTR60",												//BTR-60PB
 	"LOP_ISTS_OPF_BTR60"												//BTR-60PB
 ];
 
@@ -109,6 +122,8 @@ opfor_battlegroup_vehicles_low_intensity = [
 If something in this array can't hold all 8 soldiers then buggy behaviours may occur.	*/
 opfor_troup_transports = [
 	"LOP_ISTS_OPF_Truck",												//Truck (Cargo)
+	"LOP_ISTS_OPF_BMP1",												//BMP-1
+	"LOP_ISTS_OPF_BMP2",												//BMP-2
 	"LOP_ISTS_OPF_BTR60"												//BTR-60PB
 ];
 
@@ -119,5 +134,6 @@ opfor_choppers = [
 
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
-
+	"RHS_Su25SM_vvsc",													//Su-25
+	"RHS_Su25SM_KH29_vvsc"												//Su-25 (KH29)
 ];

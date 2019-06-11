@@ -71,12 +71,15 @@ light_vehicles = [
 	["rhsusf_m1025_d_Mk19",100,60,50],									//M1025A2 (Mk19)
 	["rhsusf_m998_d_2dr_fulltop",100,0,50],								//M1097A2 (2D)
 	["rhsusf_m998_d_2dr_halftop",100,0,50],								//M1097A2 (2D / open back)
+	["B_MRAP_01_hmg_F",120,40,40],										//M-ATV
 	["rhsusf_M1220_usarmy_d",120,0,60],									//M1220
 	["rhsusf_M1220_M2_usarmy_d",120,40,60],								//M1220 (M2)
 	["rhsusf_M1220_MK19_usarmy_d",120,60,60],							//M1220 (Mk19)
+	["rhsusf_M1220_M153_M2_usarmy_d", 140,60,60],						//M1220 CROWS
 	["rhsusf_M1232_usarmy_d",140,0,60],									//M1232
 	["rhsusf_M1232_M2_usarmy_d",140,40,60],								//M1232 (M2)
 	["rhsusf_M1232_MK19_usarmy_d",140,60,60],							//M1232 (Mk19)
+	["I_APC_Wheeled_03_cannon_F",300,250,175],							//M1128 CREOK
 	["rhsusf_M1230a1_usarmy_d",120,0,60],								//M1230A1 (MEDEVAC)
 	["rhsusf_M1083A1P2_D_open_fmtv_usarmy",125,0,75],					//M1083A1P2 Transport
 	["rhsusf_M1083A1P2_D_fmtv_usarmy",125,0,75],						//M1083A1P2 Transport (Covered)
@@ -101,12 +104,11 @@ heavy_vehicles = [
 	["RHS_M6",300,250,175],												//M6A2
 	["rhsusf_m1a1aim_tuski_d",400,350,225],								//M1A1SA (Tusk I)
 	["rhsusf_m1a2sep1tuskiid_usarmy",500,400,250],						//M1A2SEPv1 (Tusk II)
-	["rhsusf_m109d_usarmy",600,1250,300]								//M109A6
+	["rhsusf_m109d_usarmy",600,1250,300],								//M109A6
+	["rhsusf_M142_usarmy_D",1000,2000,500]								//HIMAS
 ];
 
 air_vehicles = [
-	["B_UAV_01_F",75,0,25],												//AR-2 Darter
-	["B_UAV_06_F",80,0,30],												//AL-6 Pelican (Cargo)
 	["RHS_MELB_MH6M",200,0,100],										//MH-6M Little Bird
 	["RHS_MELB_AH6M",200,200,100],										//AH-6M Pawnee
 	["RHS_AH64D",750,750,250],											//AH-64D (Multi-Role)
@@ -114,9 +116,12 @@ air_vehicles = [
 	["RHS_UH60M_d",250,80,150],											//UH-60M
 	["RHS_UH60M_MEV2_d",300,0,150],										//UH-60M MEV2
 	["RHS_CH_47F_10",275,80,175],										//CH-47 Chinook (Armed)
+	["rhsusf_CH53E_USMC_D",400,100,200],								//CH-53E Super Stallion
 	["B_UAV_02_dynamicLoadout_F",400,300,200],							//MQ-4A Greyhawk
 	["B_T_UAV_03_dynamicLoadout_F",450,500,250],						//MQ-12 Falcon
 	["B_UAV_05_F",500,500,200],											//UCAV Sentinel
+	["JS_JC_FA18E",1500,1750,450],										//F/A-18 E Super Hornet
+	["JS_JC_FA18F",1500,1750,450],										//F/A-18 F Super Hornet
 	["RHS_A10",1000,1000,400]											//A-10A (CAS)
 
 ];
@@ -328,5 +333,8 @@ elite_vehicles = [
 	"B_UAV_02_dynamicLoadout_F",										//MQ-4A Greyhawk
 	"B_T_UAV_03_dynamicLoadout_F",										//MQ-12 Falcon
 	"B_UAV_05_F",														//UCAV Sentinel
+	"JS_JC_FA18E",														//F/A-18 E Super Hornet
+	"JS_JC_FA18F",														//F/A-18 F Super Hornet
+	"rhsusf_M142_usarmy_D",												//HIMAS
 	"RHS_A10"															//A-10A (CAS)
 ];

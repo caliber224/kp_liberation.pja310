@@ -34,7 +34,7 @@ class Params
 		title = $STR_AGGRESSIVITY_PARAM;
 		values[] = {0,1,2,3,4};
 		texts[] = {$STR_AGGRESSIVITY_PARAM0, $STR_AGGRESSIVITY_PARAM1,$STR_AGGRESSIVITY_PARAM2,$STR_AGGRESSIVITY_PARAM3,$STR_AGGRESSIVITY_PARAM4};
-		default = 3;
+		default = 2;
 	};
 	class AdaptToPlayercount {
 		title = $STR_PARAM_ADAPT_TO_PLAYERCOUNT;
@@ -100,7 +100,7 @@ class Params
 		title = $STR_PARAMS_RESOURCESMULTIPLIER;
 		values[] = { 0, 1, 2, 3, 4, 5, 6, 7 };
 		texts[] = { "x0.25", "x0.5", "x0.75", "x1", "x1.25","x1.5","x2","x3" };
-		default = 3;
+		default = 7;
 	};
 	class ArsenalType {
 		title = $STR_PARAMS_ARSENAL;
@@ -202,7 +202,7 @@ class Params
 		title = $STR_PARAMS_MOBILERESPAWN;
 		values[] = { 0, 1 };
 		texts[] = { $STR_PARAMS_DISABLED, $STR_PARAMS_ENABLED };
-		default = 2;
+		default = 1;
 	};
 	class RespawnCooldown {
 		title = $STR_PARAM_RESPAWN_COOLDOWN;
@@ -214,7 +214,7 @@ class Params
 		title = $STR_PARAMS_MOBILEARSENAL;
 		values[] = { 0, 1 };
 		texts[] = { $STR_PARAMS_DISABLED, $STR_PARAMS_ENABLED };
-		default = 0;
+		default = 1;
 	};
 	class AiLogistics {
 		title = $STR_PARAMS_AILOGISTICS;
@@ -238,7 +238,7 @@ class Params
 		title = $STR_HALO_PARAM;
 		values[] = {1,5,10,15,20,30,0};
 		texts[] = { $STR_HALO_PARAM1, $STR_HALO_PARAM2, $STR_HALO_PARAM3, $STR_HALO_PARAM4, $STR_HALO_PARAM5, $STR_HALO_PARAM6, $STR_PARAMS_DISABLED };
-		default = 0;
+		default = 10;
 	};
 	class ClearCargo {
 		title = $STR_PARAM_CLEAR_CARGO;
